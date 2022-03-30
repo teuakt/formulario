@@ -10,14 +10,14 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
 
     <title>Cadastre-se no HTC</title>
   </head>
   <body>
-    <section>
-      <form class="container">
+    <section class="register-container">
+      <form class="form">
         <h1 class="title">Faça seu cadastro</h1>
         <div class="box">
           <label class="label-field" for="name-input">Nome completo</label>
@@ -59,7 +59,7 @@
           </div>
         </div>
         <div class="box">
-          <span class="gender-title">Gênero</span>
+          <span class="gender-title">Gênero:</span>
           <div class="gender-box">
             <div class="gender-select">
               <input
@@ -95,7 +95,6 @@
             </div>
           </div>
         </div>
-
         <div class="box">
           <label class="label-field" for="email-input">E-mail</label>
           <input
@@ -107,7 +106,6 @@
             required
           />
         </div>
-
         <div class="box">
           <label class="label-field" for="password-input">Senha</label>
           <input
@@ -119,7 +117,6 @@
             required
           />
         </div>
-
         <div class="box">
           <label class="label-field" for="pass-conf-input"
             >Confirme sua senha</label
@@ -133,7 +130,6 @@
             required
           />
         </div>
-
         <div class="terms">
           <input
             type="checkbox"
@@ -147,10 +143,10 @@
             <a href="#">políticas de privacidade</a> do Hall To Code.
           </label>
         </div>
-
         <button class="button">Cadastrar</button>
-
-        <p class="end">Já tem uma conta no Hall To Code? <a href="login.html">Entre agora</a></p>
+        <p class="end">
+          Já tem uma conta no Hall To Code? <a href="./html/login.html">Entre agora</a>
+        </p>
       </form>
     </section>
   </body>
